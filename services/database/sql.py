@@ -1,0 +1,7 @@
+create_table_user = """
+CREATE TABLE IF NOT EXISTS users(
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+chat_id INTEGER UNIQUE NOT NULL,
+name VARCHAR(32) NOT NULL
+)
+"""
